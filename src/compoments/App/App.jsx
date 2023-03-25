@@ -14,11 +14,11 @@ export default function App() {
     <div className="container">
       <Header />
       <Routes>
-        <Route element={<HomePage />} path="/" />
-        <Route element={<AuthorPage />} path="/author" />
-        <Route element={<CompaniesPage />} path="/companies" />
-        <Route element={<ArticlesPage />} path="/articles" />
-        <Route element={<NotFoundPage />} path="*" />
+        <Route element={<HomePage />} path="/book-react/" />
+        <Route element={<AuthorPage />} path="/book-react/author" />
+        <Route element={<CompaniesPage />} path="/book-react/companies" />
+        <Route element={<ArticlesPage />} path="/book-react/articles" />
+        <Route element={<NotFoundPage />} path="/book-react/*" />
       </Routes>
       <Footer/>
     </div>

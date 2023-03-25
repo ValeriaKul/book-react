@@ -1,0 +1,21 @@
+.btn_container {
+  height: 66px;
+  width: 222px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_text {
+  height: 100%;
+  width: 100%;
+  font-family: "Cardo";
+  background: #ffca42;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  cursor: pointer;
+  border: none;
+  color: #1b3764;
+  border: 2px solid #ffca42;
+}

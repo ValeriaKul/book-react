@@ -1,0 +1,18 @@
+.header,
+.nav {
+  display: flex;
+  align-items: center;
+  background: rgba(27, 55, 100, 1);
+}
+
+.header {
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: auto;
+  flex-wrap: wrap;
+  padding: 20px 50px;
+}
+
+.nav {
+  gap: 1.9rem;
+}

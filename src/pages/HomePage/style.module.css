@@ -1,0 +1,76 @@
+.homepage,
+.greeting,
+.part1,
+.btn {
+  display: flex;
+}
+.homepage,
+.part1,
+.btn {
+  align-items: center;
+}
+
+.part1 p,
+.part2 p,
+.homepage span {
+  color: #ffffff;
+  font-family: "Cardo";
+}
+
+.homepage {
+  background: rgba(27, 55, 100, 1);
+  justify-content: space-between;
+  padding: 50px;
+  margin: auto;
+  max-width: 1400px;
+  flex-wrap: wrap;
+}
+.homepage span {
+  height: 36px;
+  font-size: 21px;
+  line-height: 36px;
+}
+
+.greeting {
+  flex-direction: column;
+}
+
+.part1 {
+  gap: 1rem;
+}
+
+.part2 {
+  font-size: 64px;
+}
+
+.btn {
+  margin-top: 2rem;
+  gap: 4rem;
+}
+
+.btn a {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  letter-spacing: 0.38px;
+  text-transform: capitalize;
+  text-decoration: underline;
+  text-underline-offset: 0.8rem;
+  color: #ffffff;
+}
+
+.book_cover {
+  width: 592px;
+  height: 800px;
+}
+
+.book_cover__img {
+  margin-top: 40px;
+  width: 90%;
+  height: 90%;
+}
+.part1_homepage_dash {
+  margin-bottom: 10px;
+}
